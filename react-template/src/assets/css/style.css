@@ -1,0 +1,69 @@
+* {
+  margin: none;
+}
+:root {
+  --notification-header-bg-color: #008cff;
+  --notification-bg-color: #8fccff;
+  --notification-color: black;
+}
+
+.notification-container {
+  width: 700px;
+  height: 550px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: var(--notification-bg-color);
+}
+
+.notification-header {
+  width: 100%;
+  height: 80px;
+  background-color: var(--notification-header-bg-color);
+  margin-bottom: 40px;
+}
+
+.notification-title {
+  color: var(--notification-color);
+}
+
+.notification-body {
+  width: 100%;
+  overflow: hidden;
+}
+
+.form-label {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--notification-color);
+}
+.notification-chk {
+  width: 21px;
+  height: 21px;
+  border: 0;
+  outline: 0;
+  margin-right: 05px;
+}
+.notification-option {
+  width: 50%;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  width: 200px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #008cff;
+  color: white;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
